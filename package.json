@@ -1,0 +1,46 @@
+{
+  "name": "agnes-ai-for-copilot",
+  "displayName": "Agnes AI for Copilot Chat",
+  "description": "Agnes AI 模型接入 VS Code Copilot Chat",
+  "version": "0.1.0",
+  "publisher": "erveepp",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.116.0"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "activationEvents": [
+    "onUri",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languageModelChatProviders": [
+      {
+        "vendor": "agnes-ai",
+        "displayName": "Agnes AI"
+      }
+    ],
+    "commands": [
+      {
+        "command": "agnes-ai-for-copilot-chat.setApiKey",
+        "title": "Agnes AI: Set API Key"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@vscode/vsce": "^3.0.0",
+    "sharp": "^0.35.2",
+    "typescript": "^5.5.0"
+  }
+}
