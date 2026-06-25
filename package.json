@@ -1,6 +1,6 @@
 {
-  "name": "agnes-ai-for-copilot",
-  "displayName": "Agnes AI for Copilot Chat",
+  "name": "agnes-ai-for-copilot-chat",
+  "displayName": "Agnes AI - Copilot Chat Provider",
   "description": "Agnes AI 模型接入 VS Code Copilot Chat",
   "version": "0.1.0",
   "publisher": "erveepp",
