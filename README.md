@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-cn.md)
 
-[![Version](https://img.shields.io/github/v/release/erveepp/agnes-ai-for-copilot?style=for-the-badge&label=Version)](https://github.com/erveepp/agnes-ai-for-copilot/releases)
+[![Version](https://img.shields.io/github/v/release/ERVeepp/agnes-ai-for-copilot?style=for-the-badge&label=Version)](https://github.com/erveepp/agnes-ai-for-copilot/releases)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/erveepp.agnes-ai-for-copilot-chat?style=for-the-badge&label=Installs)](https://marketplace.visualstudio.com/items?itemName=erveepp.agnes-ai-for-copilot-chat)
 
 [Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=erveepp.agnes-ai-for-copilot-chat)
