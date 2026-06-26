@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     context.subscriptions.push(
         vscode.lm.registerLanguageModelChatProvider('agnes-ai', provider),
-        vscode.commands.registerCommand('agnes-copilot.setApiKey', async () => {
+        vscode.commands.registerCommand('agnes-ai-for-copilot-chat.setApiKey', async () => {
             const key = await vscode.window.showInputBox({
                 prompt: '请输入 Agnes AI API Key',
                 placeHolder: 'sk-...',
