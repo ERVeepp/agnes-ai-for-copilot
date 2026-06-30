@@ -2,7 +2,7 @@
   "name": "agnes-ai-for-copilot-chat",
   "displayName": "Agnes AI - Copilot Chat Provider",
   "description": "Agnes AI 模型接入 VS Code Copilot Chat",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "erveepp",
   "icon": "icon.png",
   "repository": {
