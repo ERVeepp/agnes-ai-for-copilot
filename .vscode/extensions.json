@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "vitest.explorer",
+    "bierner.markdown-mermaid",
+    "pkief.material-icon-theme",
+    "editorconfig.editorconfig"
+  ]
+}

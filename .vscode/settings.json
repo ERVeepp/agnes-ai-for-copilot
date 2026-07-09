@@ -1,0 +1,43 @@
+{
+  // ===== Copilot =====
+  "chat.mcp.discovery.enabled": {
+    "vscode-workspace": true
+  },
+
+  // ===== 编辑器 =====
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+
+  // ===== 语言专属 =====
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+
+  // ===== 文件 =====
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+
+  // ===== 资源管理器 =====
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // ===== 终端 =====
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
